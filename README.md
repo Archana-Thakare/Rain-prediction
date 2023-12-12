@@ -1,6 +1,6 @@
 # Rain-prediction: 
 Problem Statement: Create a Machine Learning model using various Classification Models to predict rainfall.
-You have given the weather information of Sydney from 2008 to 2017 ()
+You have given the weather information of Sydney from 2008 to 2017 (sydney_rain prediction.xlsx)
 The dataset contains 18 columns:
 Date:The date of observation
 Location:The common name of the location of the weather station
