@@ -102,14 +102,19 @@ The models were evaluated using:
 - Confusion Matrix
 
 ### Best Performing Model
-Random Forest Classifier achieved the best performance with approximately:
+Ensemble techniques are performing good. Gradient boost classifier shows better AUC values(Training and Testing) compared to other models. It also shows better classification score(Training and Testing) compared to other models. Hence Gradient Boost classifier is better option:
 
 | Metric | Score |
 |---|---|
-| Accuracy | 85–90% |
-| Precision | 0.87 |
-| Recall | 0.84 |
-| F1-Score | 0.85 |
+| Training Recall Score | 0.7468175388967468 |
+| Training precision Score | 0.9378330373001776 |
+| Training roc_auc Score | 0.8644892995197292 |
+| Training Accuracy Score | 0.9198201573623079 |
+| Testing Recall Score | 0.5126582278481012 |
+| Testing precision Score | 0.7168141592920354 |
+| Testing roc_auc Score | 0.7249565649044428 |
+| Testing Accuracy Score | 0.8368263473053892 |
+
 
 ---
 
@@ -126,7 +131,7 @@ Random Forest Classifier achieved the best performance with approximately:
 
 Possible future enhancements include:
 
-- Implementing XGBoost or LightGBM
+- Implementing LightGBM
 - Hyperparameter tuning
 - Real-time weather API integration
 - Deep learning models (LSTM)
